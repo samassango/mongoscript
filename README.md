@@ -11,4 +11,4 @@ To use this script you need to follow the following steps for now. With time it 
 3. Update the script to point on your mongodb by changing the url
 4. Change the collection name
 5. spacify the field you want to update the way you want it.
-6. run the script by `node app.js
+6. run the script by `node app.js`
