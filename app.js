@@ -4,8 +4,8 @@ var MongoClient = require('mongodb').MongoClient;
 // mongo url
 var url = "mongodb://127.0.0.1:27017/";
 
- console.log("***********************script start************************");\
-
+ console.log("***********************script start************************");
+ 
 MongoClient.connect(url, function(err, db) {
   if (err){
     console.log("Sorry unable to connect to MongoDB Error");
