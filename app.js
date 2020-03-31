@@ -47,7 +47,7 @@ MongoClient.connect(url, function(err, db) {
               })
           }
 
-          var checkStr2 ="http://41.76.213.201:5000";
+          var checkStr2 ="http://41.76.214.63:5000";
           var isValidLink2 = _.startsWith(doc.documentstr,checkStr2);
             // console.log("test",isValidLink);
           if(isValidLink2){
