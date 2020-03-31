@@ -5,7 +5,7 @@ var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://127.0.0.1:27017/";
 
  console.log("***********************script start************************");
- 
+
 MongoClient.connect(url, function(err, db) {
   if (err){
     console.log("Sorry unable to connect to MongoDB Error");
@@ -47,7 +47,7 @@ MongoClient.connect(url, function(err, db) {
               })
           }
 
-          var checkStr2 ="http://41.76.213.201:5000";
+          var checkStr2 ="http://41.76.213.201:5000";//http://41.76.214.63:5000
           var isValidLink2 = _.startsWith(doc.documentstr,checkStr2);
             // console.log("test",isValidLink);
           if(isValidLink2){
